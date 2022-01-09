@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+<!-- fonts awesomw -->
+<script src="https://kit.fontawesome.com/6fe14786b5.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+
+        <h1 class="titulo">Contact<span>anos</span> </h1>
+
+        <div class="contenedorMayor">
+            <div class="parte-Izquierda">
+
+                <form action="" id="formulario">
+
+                    <p class="block">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" name = "nombre" id="nombre">
+                    </p>
+                    <p class="block">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" name="email" id="email">
+
+                    </p>
+                    <p>
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto">
+                    </p>
+                    <p>
+                        <label for="mensaje">¡Cuentanos!</label>
+                        <textarea name="mensaje" id="mensaje"  rows="10"></textarea>
+                    </p>
+                    <div id="spinner"></div>
+                    <p>
+                        <button type="submit" id="enviarForm">
+                            ENVIAR
+                        </button>
+                    </p>
+                </form>
+
+            </div>
+            <div class="parte-Derecha">
+
+                <h4 class="subTitulo">Mas Informacion</h4>
+                <ul>
+                    <div class="icons">
+                        <li<i class="fas fa-map-marker-alt"></i>carrera ?? calle ??</li>
+                        <li<i class="fas fa-mobile-alt"></i>(57) 302 264 99 14</li>
+                        <li<i class="far fa-envelope"></i>montoyad283@gmail.com</li>
+                    </div>
+                    
+                    <p class="frase">"Los sabios son los que buscan la sabiduría; los necios piensan ya haberla encontrado"</p>
+
+                    <li>freelance.SAS</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
